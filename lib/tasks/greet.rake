@@ -1,12 +1,12 @@
 namespace :greet do
 
   desc "Goodbyeを表示するタスク"
-  task say_doodbye: :environment do
+  task say_goodbye: :environment do
     puts "Goodbye"
   end
 
   desc "Helloを表示するタスク"
-  task task_name: :environment do
+  task say_hello: :environment do
     puts "Hello!!"
   end
 end
@@ -19,7 +19,7 @@ namespace :greet_when_dating do
   end
 
   desc "ファッションを褒める"
-  task paraise_fashion: :environment do
+  task praise_fashion: :environment do
     puts "That's fashionable!!"
   end
 end
